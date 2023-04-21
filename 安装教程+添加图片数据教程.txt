@@ -1,0 +1,12 @@
+下载hbuilderx软件，并将源码导入到hbuilderx中
+注册账号并创建空间，右击uniCloud-aliyun关联刚刚创建的云服务空间
+点击manifest.json文件，重新获取uni-app应用标识以及点击”微信小程序配置“或“QQ小程序配置”去填写你的小程序appid
+右击db_init初始化云数据库以及右击cloudfunctions上传函数
+进入云服务空间数据库，点击数据表wx_confic，找到并更改微信id和微信密钥或（QQid和QQ密钥），确保编译后可以获得小程序数据。
+
+★无图片数据解决办法
+将数据wx_cover.json导入云数据库wx_cover表中，wx_category.json导入云数据库wx_category表中。 
+ 
+前往小程序后台添加域名
+编译小程序，测试上传下载等
+上传小程序到体验版，审核发布
